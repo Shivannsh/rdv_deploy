@@ -1,0 +1,98 @@
+.hero_lp {
+  gap: 40px;
+}
+
+
+.hero {
+  background-color: #0a001b;
+  background-image: url("../../../assets/img/Group\ 4090.png");
+  
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center 10%;
+  
+}
+
+.hero_text {
+  color: #fff;
+  font-family: Open Sans;
+  font-size: 25px;
+  text-align: center;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.hero-logo {
+  width: 40%;
+}
+
+.yellow-text {
+  color: #ffd900;
+  font-weight: 700;
+}
+
+.join {
+  width: 210px;
+  height: 50px;
+  border-radius: 25px;
+  background: linear-gradient(277deg, #efc36a 2%, #e3a01a 98%);
+  color: white;
+  font-size: 20px;
+  font-weight: 600;
+  border-style: none;
+}
+
+@media screen and (max-width: 1024px) {
+
+  .hero {
+    height: 80vh;
+  }
+  .hero-logo {
+    width: 50%;
+  }
+  .hero_text {
+    font-size: 20px;
+  }
+  .join {
+    font-size: 18px;
+    width: 190px;
+    height: 45px;
+  }
+
+}
+
+@media screen and (max-width: 768px) {
+  .hero {
+    height: 60vh;
+    background-size: 150%;
+  }
+  .hero_text {
+    font-size: 16px;
+  }
+  .join {
+    font-size: 14px;
+    width: 140px;
+    height: 35px;
+  }
+}
+
+@media screen and (max-width: 481px) {
+
+  .hero {
+    height: 80vh;
+    background-size: 200%;
+  }
+  .hero-logo {
+    width: 80%;
+  }
+  .hero_text {
+    font-size: 16px;
+  }
+  .join {
+    font-size: 12px;
+    width: 100px;
+    height: 30px;
+  }
+}
+

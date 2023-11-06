@@ -1,0 +1,176 @@
+#sponsor {
+	margin-top: 10vh;
+}
+#sponsor .head {
+	color: #acebf6;
+	text-align: center;
+	margin: 0px;
+	min-height: 8vh;
+	font-size: 1.2em;
+}
+.sponser-div{
+	background-color: #0A001B;
+}
+
+#sponsor .mb {
+	margin-bottom: 13px;
+}
+#sponsor .mb-large {
+	margin-top: 30px;
+	margin-bottom: 20px;
+}
+#sponsor .ritul {
+	margin-bottom: 50px;
+	justify-content: flex-end !important;
+}
+
+#sponsor .main .img-boxer {
+	background-color: white;
+	width: 80vw;
+	height: 30vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 0 10px;
+}
+
+#sponsor .main .img-boxer .roshan {
+	/* max-width: 350px;
+  	max-height: 100px; */
+	margin: 20px;
+	max-height: 100%;
+	padding: 20px;
+}
+#sponsor .main .satya {
+	background-color: #5e28a1;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	/* border-bottom: 5px solid #ffd700; */
+}
+
+#sponsor .main .satya .name {
+	text-align: center;
+	font-style: italic;
+	font-size: 18px;
+	font-weight: bold;
+	margin-bottom: 0;
+	padding: 10px 0;
+}
+
+/* #second CSSS starts here  */
+
+#sponsor .second .img-boxer {
+	background-color: white;
+	width: 20vw;
+	height: 30vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 0 10px;
+}
+
+#sponsor .second .img-boxer .roshan {
+	/* max-width: 350px;
+ 	 max-height: 100px; */
+	max-height: 100%;
+	padding: 20px;
+}
+#sponsor .second .satya {
+	background-color: #5e28a1;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	/* border-bottom: 5px solid #93ffd8; */
+	max-width: 100%;
+}
+
+#sponsor .second .satya .name {
+	text-align: center;
+	font-style: italic;
+	font-size: 18px;
+	font-weight: bold;
+	margin-bottom: 0;
+	padding: 10px 5px;
+	white-space: nowrap;
+	overflow-x: hidden;
+	text-overflow: ellipsis;
+}
+.spons-row {
+	margin-bottom: 2rem;
+}
+.media-head {
+	font-size: 3rem;
+	font-weight: 600;
+	text-align: center;
+	margin-bottom: 2rem;
+}
+.img-boxer {
+	object-fit: cover;
+	width: 100% !important;
+}
+.satya {
+	width: 22vw;
+}
+.golden {
+	width: 50%;
+}
+#sponsor {
+	padding: 0;
+	margin-left: 10vw;
+	margin-right: 10vw;
+	width: 80vw;
+}
+@media screen and (max-width: 768px) {
+	#sponsor .second .img-boxer {
+		background-color: white;
+		width: 100%;
+		height: 30vh;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		padding: 0 10px;
+	}
+	.satya {
+		width: 45vw;
+	}
+	.golden {
+		width: 70%;
+	}
+}
+
+@media screen and (max-width: 480px) {
+	.spons-row {
+		margin-bottom: 1.5rem;
+	}
+	.media-head {
+		font-size: 2.5rem;
+		font-weight: 600;
+		text-align: center;
+		margin-bottom: 1.5rem;
+	}
+	#sponsor {
+		padding: 0;
+		margin-left: 5vw;
+		margin-right: 5vw;
+		width: 90vw;
+	}
+
+	#sponsor .second .img-boxer {
+		background-color: white;
+		width: 100%;
+		height: 25vh;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		padding: 0 10px;
+	}
+
+	.img-boxer .roshan {
+		padding: 0 10px 0 10px !important;
+	}
+
+	.golden .img-boxer .roshan {
+		padding: 20px !important;
+	}
+}

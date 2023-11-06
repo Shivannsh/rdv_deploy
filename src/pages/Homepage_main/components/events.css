@@ -1,0 +1,57 @@
+
+.container_events{
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    display: flex;
+    align-self: center;
+    align-content: center;
+    background-color: black;
+    justify-content: center;
+    background-image: url("https://rdv-bucket.s3.amazonaws.com/Website/bg_events.webp");
+}
+.event_box{
+    margin: auto;
+    width: max-content;
+    height: max-content;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 50px;
+}
+
+.left{
+    display: flex;
+    background: white;
+    
+    height:400px;
+    flex-direction: column;
+    align-content: center;
+    justify-content: flex-end;
+    width: 400px;
+}
+.left h2{
+    margin-left: auto;
+    margin-right: auto;
+}
+.right{
+    width: 400px;
+    height: 400px;
+    color: white;
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+}
+.event_btn{
+    display: flex;
+    padding-top: 8px;
+    border-radius: 10px;
+    align-content: center;
+    height:41px;
+    width:118px;
+    color: black;
+    justify-content: center;
+    background: #EFC36A;
+}

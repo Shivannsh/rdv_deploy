@@ -1,0 +1,416 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.event-main-boss {
+  padding: 20px;
+  background-color: #0a001b;
+}
+
+.event-main {
+  background-color: #0a001b;
+}
+
+.event-main .location-icon {
+  height: 30px;
+  width: 30px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.event-backg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 4rem;
+  aspect-ratio: 2.89;
+  box-sizing: border-box;
+  color: white;
+  background-image: url(https://rdv-bucket.s3.amazonaws.com/Website/EventPoster.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center right;
+  text-align: center;
+  padding-top: 70px;
+}
+.event-backg > h1 {
+  padding: 40px 10px;
+  font-size: 5rem;
+}
+
+.event-content-boss {
+  display: flex;
+}
+.event-content {
+  padding: 40px;
+}
+
+.event-side-change {
+  display: none;
+}
+
+.event-side {
+  margin: 0 30px 0 0;
+  padding: 0;
+  height: 40%;
+}
+
+.event-desc-box {
+  padding: 15px;
+  height: auto;
+  border-radius: 10px;
+  background-color: #222222;
+  width: 100%;
+}
+.event-desc {
+  display: flex;
+  border-bottom: 2px solid black;
+  padding: 15px 0;
+}
+
+.event-image-box {
+  padding: 0 10px;
+  border-right-style: dashed;
+  border-color: yellow;
+  display: flex;
+  align-items: center;
+}
+
+.event-image {
+  height: 30vh;
+
+  aspect-ratio: 1;
+}
+
+.event-desc-text {
+  margin-left: 20px;
+  color: white;
+}
+
+.event-desc-items > div {
+  padding: 0 20px;
+  margin: 15px 0;
+}
+
+.event-img {
+  padding: 0 10px 0 0;
+}
+
+.event-img {
+  width: 40px;
+}
+
+.event-type {
+  color: white;
+  font-size: 20px;
+  text-align: center;
+}
+
+.event-type-box {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.event-type {
+  padding: 5px 30px;
+  background-color: #383838;
+  border-radius: 10px;
+  margin: 20px 15px 0 15px;
+}
+
+.event-type:hover {
+  background-color: #2f2f2f;
+  cursor: pointer;
+}
+
+.side-template {
+  margin: 40px 40px 0px 0px;
+  height: 40%;
+  border-radius: 10px;
+  background-color: #222222;
+  width: 100%;
+}
+
+.side-temp-head {
+  display: flex;
+  color: white;
+  padding: 10px 30px;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 2px solid black;
+}
+
+.side-temp-head > h4 {
+  margin: 0px;
+}
+
+.side-temp-head > button {
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  color: white;
+  background-color: #efc36a;
+}
+
+.side-con-boss {
+  padding: 20px 40px;
+  display: flex;
+  flex-direction: column;
+}
+
+.side-con-items {
+  padding: 10px 0;
+  display: flex;
+  justify-items: center;
+  align-items: center;
+}
+
+.side-con-items > img {
+  height: 60px;
+  width: 60px;
+}
+
+.side-con-c > p {
+  padding: 0 0 5px 20px;
+  margin: 0;
+  color: white;
+}
+
+.event-head-items {
+  cursor: pointer;
+  margin: 0 10px;
+  padding: 0 10px;
+}
+
+.about-event-main {
+  border-radius: 10px;
+  padding: 25px 30px;
+  color: white;
+  background-color: #222222;
+  width: 100%;
+  margin: 20px 0;
+}
+
+.about-event-main > h2,
+.event-date-box > h2 {
+  border-left: 7px solid rgb(171, 125, 56);
+  padding: 0 20px;
+}
+
+.about-event {
+  margin: 40px 0px;
+  padding: 0 10px;
+  text-align: justify;
+}
+
+.about-event-boss {
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+}
+
+.about-event-items {
+  padding: 0 10px;
+}
+
+.about-event-i {
+  padding: 20px 0;
+  width: 100%;
+  height: auto;
+  word-break: break-all;
+}
+
+.rel-eve-main {
+  color: white;
+  padding: 40px;
+  height: auto;
+  border-radius: 10px;
+  background-color: transparent;
+}
+
+.rel-eve-head {
+  display: flex;
+  justify-content: space-between;
+}
+
+.rel-eve-head > h3 {
+  color: #efc36a;
+}
+
+.rel-eve-content {
+  display: flex;
+  overflow-x: scroll;
+  width: 100%;
+  height: 100%;
+}
+
+.eve-card {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  padding: 20px 20px;
+}
+
+.eve-card-img > img {
+  height: 200px;
+}
+
+.eve-card-title {
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+@media screen and (max-width: 1119px) {
+  /* .side-temp-head {
+    width: auto;
+  } */
+
+  .side-temp-head {
+    padding: 10px 20px;
+  }
+
+  .side-temp-head > button {
+    padding: 3px 5px;
+    margin-left: 30px;
+  }
+
+  .side-con-boss {
+    padding: 10px 20px;
+  }
+}
+
+@media screen and (max-width: 1097px) {
+  .event-image {
+    /* width: calc(350 / 1100 * 100vw); */
+    height: 200px;
+    aspect-ratio: 1;
+  }
+
+  .event-content {
+    width: 60vw;
+  }
+}
+
+@media screen and (max-width: 1049px) {
+  .event-image {
+    height: 200px;
+  }
+}
+@media screen and (max-width: 910px) {
+  .event-desc-items > div {
+    padding: 0;
+  }
+
+  .event-content {
+    padding: 20px;
+  }
+
+  .side-template {
+    margin-top: 20px;
+  }
+}
+@media screen and (max-width: 875px) {
+  .event-content {
+    width: 100vw;
+  }
+  .event-side {
+    display: none;
+  }
+  .event-side-change {
+    display: block;
+  }
+  .event-backg > h1 {
+    font-size: 3rem;
+  }
+
+  .eve-card-img > img {
+    height: 150px;
+  }
+}
+
+@media screen and (max-width: 684px) {
+  .event-desc-box,
+  .event-side-change,
+  .about-event-main {
+    margin: 15px;
+    width: 95%;
+  }
+
+  .event-content {
+    padding: 20px;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 628px) {
+  .rel-eve-main {
+    padding: 5px;
+  }
+}
+@media screen and (max-width: 525px) {
+  /* .event-desc-box,.event-side-change,.about-event-main{
+            margin: 20px;
+            width: calc(100vw - 40px);
+        } */
+  /* .event-image-box{
+    padding-left:-12vw;
+  } */
+  .event-type {
+    font-size: 18px;
+    padding: 5px 5px;
+    margin: 10px;
+  }
+  .event-backg > h1 {
+    font-size: 2rem;
+  }
+  .event-image {
+    height: 135px;
+    width: 135px;
+  }
+
+  .event-content {
+    padding: 0;
+    margin: 0;
+  }
+
+  .eve-card-img > img {
+    height: 100px;
+  }
+}
+
+@media screen and (max-width: 412px) {
+  /* .event-desc-box,.event-side-change,.about-event-main{
+        margin: 20px 5px;
+        width: calc(100vw - 10px);
+    } */
+
+  .event-desc {
+    font-size: 0.8rem;
+  }
+  .about-event {
+    padding: 0 15px;
+  }
+  .about-event-items {
+    padding: 0 15px 0 0;
+  }
+
+  .event-desc-text {
+    margin: 0 20px;
+  }
+
+  /* .event-backg > p {
+    font-size: 30px;
+  } */
+  .rel-eve-head > h2,
+  .rel-eve-head > h3 {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 367px) {
+  .event-main-boss {
+    padding: 20px 10px;
+  }
+}

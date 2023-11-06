@@ -1,0 +1,51 @@
+.shifted-right {
+    margin-left: "auto";
+}
+
+#rdv-txt {
+    font-family: 'Bebas Neue', sans-serif;
+    color: #EFC36A;
+    font-size: 35px;
+}
+
+#rdv-txt-container {
+
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    height: 16px;
+}
+
+
+@media (max-width: 1024px) {
+
+    #rdv-txt-container {
+        height: 16px;
+    }
+
+    #rdv-txt {
+        font-size: 35px;
+    }
+
+}
+
+.links {
+    display: flex;
+
+}
+
+#links-left {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    height: 50px;
+}
+
+#links-right {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-self: center;
+    height: 50px;
+}

@@ -1,0 +1,22 @@
+.Pronite-Rules-Sec {
+
+    background-color: #08133a;
+    color: #efc36a;
+    font-family: Quincy;
+    text-align: justify;
+  }
+  .Pronite-Rules-Sec > div {
+    background-image: url(../../../assets/img/pronite/ProniteRulesBg.png);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+  @media screen and (max-width: 680px) {
+    .Pronite-Rules-Sec ol {
+      font-size: 1.1rem !important;
+    }
+    .Pronite-Rules-Sec ol strong {
+      font-size: 1.3rem !important;
+    }
+  }

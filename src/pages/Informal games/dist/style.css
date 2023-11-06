@@ -1,0 +1,82 @@
+.heroInformal {
+  width: 100%;
+  height: 300px;
+  margin-top: 0;
+  background-color: #100e17;
+  padding: 0;
+}
+.heroInformal > div:first-child {
+  width: 100%;
+  height: 100%;
+  background-image: url("../../../assets/img/informal_hero_image.png");
+  background-size: cover;
+  background-position: center center;
+  opacity: 0.3;
+}
+.heroInformal img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.info-body {
+  background-color: rgb(22, 3, 46);
+  font-family: "Open Sans", sans-serif;
+  min-height: 60vh;
+  display: flex;
+  width: 100% !important;
+}
+
+.info-container {
+  margin: 6vh auto;
+  min-height: 30vh;
+  width: 100%;
+  padding-left: 60px;
+  padding-right: 30px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.info-card {
+  display: flex;
+  height: 35vh;
+  background-color: #17141d;
+  border-radius: 10px;
+  box-shadow: -1rem 0 3rem #000;
+  margin-left: -30px !important;
+  margin-bottom: 3rem;
+  transition: 0.4s ease-out;
+  position: relative;
+  left: 0px;
+}
+
+.info-card:hover {
+  transform: translateY(-40px);
+  transition: 0.4s ease-out;
+}
+
+.info-card:hover ~ .card {
+  position: relative;
+  left: 50px;
+  transition: 0.4s ease-out;
+}
+
+@media screen and (max-width: 1150px) {
+  .heroInformal {
+    height: 250px;
+  }
+  .info-card {
+    display: flex;
+    height: 30vh;
+    background-color: #17141d;
+    border-radius: 10px;
+    box-shadow: -1rem 0 3rem #000;
+    transition: 0.4s ease-out;
+    position: relative;
+    left: 0px;
+  }
+}
+@media screen and (min-width: 1200px) {
+}

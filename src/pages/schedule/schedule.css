@@ -1,0 +1,77 @@
+.schedule-header {
+  background-color: #08133a;
+}
+
+.schedule-title {
+  color: #fff;
+  text-align: center;
+  font-family: Quincy;
+  font-size: 100px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  background-color: #08133a;
+  padding-top: 7rem;
+}
+
+.day-tab {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding-top: 3rem;
+}
+
+.schedule-btn {
+  font-family: Quincy;
+  width: 10rem;
+  height: 3rem;
+  border: none;
+  border-radius: 0.75rem;
+  color: #ffcc76;
+  border: 1px solid #ffcc76;
+  background-color: #111935;
+}
+
+.day-tab .active {
+  color: #111935;
+  background-color: #ffcc76;
+}
+
+.schedule-body {
+  background-color: #08133a;
+  padding-top: 5rem;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 5rem;
+}
+
+.schedule-img {
+  width: 80%;
+}
+
+@media screen and (max-width: 768px) {
+  .schedule-title {
+    font-size: 65px;
+  }
+  .schedule-img {
+    width: 95%;
+  }
+
+  .schedule-btn {
+    width: 7rem;
+    height: 2.5rem;
+    border-radius: 0.5rem;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .schedule-title {
+    font-size: 42px;
+  }
+
+  .schedule-btn {
+    width: 5rem;
+    height: 2rem;
+    border-radius: 0.4rem;
+  }
+}

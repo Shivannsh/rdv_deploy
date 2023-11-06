@@ -1,0 +1,301 @@
+.faqs-container {
+  color: black;
+  background-color: #0a001b;
+  /* padding: 2vh calc(150 / 1725 * 100vw) 30px calc(150 / 1725 * 100vw); */
+  padding: 48px 10vw;
+  padding-bottom: 5vw;
+}
+
+.faqs-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.faqs-title {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  color: #efc36a;
+  font-family: Poppins;
+  font-size: 3rem;
+  /* font-size: 55px; */
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.faqs-more-button {
+  text-decoration: none;
+  display: inline-flex;
+  padding: 10px 2vw;
+  /* padding: 28px; */
+  justify-content: center;
+  align-items: center;
+  gap: 1vw;
+  border-radius: 10px;
+  background: #efc36a;
+  color: #fff;
+  font-family: Poppins;
+  font-size: 1.4vw;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  transition: 0.3s ease;
+}
+
+.faqs-acco-box {
+  background-color: white;
+  width: 72vw;
+  padding: 2vh 0;
+  overflow: visible;
+  border-radius: 3vh;
+  color: black;
+  padding-left: 5vw;
+  cursor: pointer;
+  color: #0a001b;
+  font-family: Poppins;
+  font-size: 1.2rem;
+  font-style: normal;
+  font-weight: 200;
+  line-height: normal;
+}
+
+.faqs-acco-subboss {
+  border-radius: 3vh;
+  background-color: white;
+}
+
+.faqs-acco-btn {
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  /* border-bottom: 1px solid white; */
+  border: 1px solid grey;
+  border-radius: 3vh;
+  text-align: left;
+  font-size: 2.5vh;
+  padding: 0;
+  margin: 15px 0 15px 0;
+  /* width: 70vw; */
+  /* height: auto; */
+}
+
+.faqs-acco-btn:hover {
+  cursor: pointer;
+}
+
+.faqs-acco-content-boss {
+  margin-top: 0;
+  margin-left: 71px;
+  transition: 3s ease;
+  /* animation: growDown 600ms ease-in-out forwards */
+}
+
+@keyframes down {
+  from {
+    height: 10px;
+  }
+
+  to {
+    height: 100px;
+  }
+}
+
+@keyframes up {
+  from {
+    height: 80px;
+  }
+
+  to {
+    height: 10px;
+  }
+}
+
+@keyframes growDown {
+  0% {
+    transform: scaleY(0);
+  }
+
+  100% {
+    transform: scaleY(1);
+  }
+}
+
+.faqs-acco-content {
+  width: 60vw;
+  font-size: 20px;
+  /* margin:0 0 10px 0; */
+  background-color: white;
+  border-radius: 3vh;
+  color: #0a001b;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  padding-bottom: 14px;
+  /* transition: 1s ease; */
+  margin-top: 0;
+}
+
+.faqs-acco-down {
+  animation: growDown 600ms ease-in-out forwards;
+  /* transform-origin: top center; */
+}
+
+.faqs-acco-up {
+  animation: up 0.5s ease;
+}
+
+.faqs-acco-input {
+  display: none;
+}
+
+@keyframes rotation-cw {
+  from {
+    transform: rotate(90deg);
+  }
+
+  to {
+    transform: rotate(0deg);
+  }
+}
+
+@keyframes rotation-acw {
+  from {
+    transform: rotate(-90deg);
+  }
+
+  to {
+    transform: rotate(0deg);
+  }
+}
+
+.faqs-arrow {
+  width: 25px;
+  height: 25px;
+  margin: auto;
+  margin-right: 30px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.faqs-down-arrow {
+  background-image: url(../../../../assets/img/about/faqs-down-arrow.png);
+  animation: rotation-acw 0.2s linear;
+  background-size: 25px 15px;
+}
+
+.faqs-right-arrow {
+  background-image: url(../../../../assets/img/about/faqs-right-arrow.png.png);
+  animation: rotation-cw 0.2s linear;
+  background-size: 15px 25px;
+}
+
+@media (min-width: 769px) {
+  .faqs-more-button:hover {
+    transform: scale(0.95);
+    transition: 0.3s;
+  }
+}
+
+@media (max-width: 768px) {
+
+  /* .faqs-title {
+    font-size: 24px;
+  } */
+  .faqs-title {
+    
+    font-size: 2.5rem;
+    
+    font-weight: 600;
+    line-height: normal;
+  }
+
+  /* .faqs-more-button {
+    display: inline-flex;
+    padding: 3.27px 6.541px;
+    justify-content: center;
+    align-items: center;
+    gap: 2.18px;
+    flex-shrink: 0;
+    border-radius: 4.361px;
+    background: #efc36a;
+    color: #fff;
+    font-family: Poppins;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+  } */
+
+  .faqs-acco-box {
+    width: 80vw;
+    padding-left: calc(12 / 360 * 100vw);
+    flex-shrink: 0;
+    color: #0a001b;
+    font-family: Poppins;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    /* border-radius: 2vw; */
+  }
+
+  .faqs-acco-btn {
+    border-radius: 10px;
+  }
+  .faqs-more-button {
+    
+    font-size: 1.0rem;
+    font-weight: 200;
+  }
+  .faqs-arrow {
+    width: 20px;
+    height: 20px;
+    margin: auto;
+    margin-right: 15px;
+  }
+
+  .faqs-down-arrow {
+    background-size: 20px 14px;
+  }
+
+  .faqs-right-arrow {
+    background-size: 14px 20px;
+  }
+
+  .faqs-acco-subboss {
+    border-radius: 10px;
+  }
+
+  .faqs-acco-content-boss {
+    margin-left: 4vw;
+    width: 75vw;
+  }
+
+  .faqs-acco-content {
+    margin-top: -8px;
+    /* margin-bottom:-10px; */
+    width: 80vw;
+    color: #0a001b;
+    font-family: Poppins;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .faqs-container {
+    padding: 48px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .faqs-container {
+    padding: 24px;
+  }
+}

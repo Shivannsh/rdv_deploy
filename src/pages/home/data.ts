@@ -1,0 +1,7 @@
+const Primesponsors = [
+{
+    
+}
+];
+
+export { Primesponsors };

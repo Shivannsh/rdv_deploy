@@ -1,0 +1,195 @@
+.login-boss {
+  background: url("https://rdv-bucket.s3.amazonaws.com/Website/bg_img1.webp")
+    no-repeat center center/cover;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+  justify-content: flex-end;
+  display: flex;
+  align-items: center;
+  font-family: "Quintessential", sans-serif;
+  color: #efc36a;
+  padding-top: 70px;
+}
+
+.login-sub {
+  backdrop-filter: blur(30px);
+  border: 1px solid #ffcc76;
+  border-radius: 5px;
+  padding-left: calc(28 / 1920 * 100vw);
+  padding-right: calc(28 / 1920 * 100vw);
+  height: calc(786 / 1063 * 100vh);
+  width: calc(535 / 1920 * 100vw);
+  margin: auto;
+  margin-left: calc(125 / 1920 * 100vw);
+}
+
+.login-head {
+  width: fit-content;
+  margin-top: calc(45 / 1063 * 100vh);
+  margin-left: auto;
+  margin-right: auto;
+  font-size: calc(41.5 / 1063 * 100vh);
+}
+
+.login-boss input[type="text"],
+.login-boss input[type="password"] {
+  padding: 0;
+  padding-top: calc(5 / 1063 * 100vh);
+  padding-bottom: calc(5 / 1063 * 100vh);
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid #ffcd7695;
+  border-radius: 0;
+  color: #efc36a;
+}
+
+.login-boss input[type="text"]::placeholder,
+.login-boss input[type="password"]::placeholder {
+  color: #efc36a;
+  opacity: 0.5;
+  font-size: calc(28 / 1063 * 100vh);
+}
+
+.login-boss input[type="text"]:focus,
+.login-boss input[type="password"]:focus {
+  padding: 0;
+  padding-top: calc(5 / 1063 * 100vh);
+  padding-bottom: calc(10 / 1063 * 100vh);
+  border: none;
+  border-bottom: 1px solid #ffcd7695;
+  border-radius: 0;
+  color: #efc36a;
+  outline: none;
+  outline: 0;
+  outline: none !important;
+  outline: 0 !important;
+}
+
+.login-input {
+  /* color: #efc36ac8; */
+  background: none;
+  border-bottom: #ffcc76;
+}
+
+.login-username-input {
+  margin-top: calc(45 / 1063 * 100vh);
+  margin-bottom: calc(45 / 1063 * 100vh);
+}
+
+.login-password-input {
+  margin-bottom: calc(15 / 1063 * 100vh);
+}
+
+.login-boss a:any-link {
+  color: #efc36a;
+  text-decoration: none;
+}
+
+.login-flexend {
+  padding: 0;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.login-center {
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.forgot-password-button {
+  margin-right: calc(20 / 1920 * 100vw);
+  margin-bottom: calc(60 / 1063 * 100vh);
+  background: none;
+  border: none;
+  color: #efc36a;
+  opacity: 0.5;
+  font-size: calc(28 / 1063 * 100vh);
+}
+
+.login-submit {
+  height: calc(59 / 1063 * 100vh);
+  width: calc(250 / 1920 * 100vw);
+  padding: 0;
+  border: 0.1px solid #ffcc76;
+  border-radius: 2px;
+  color: #efc36a;
+  background-color: #111935de;
+  font-size: calc(30 / 1063 * 100vh);
+  margin-bottom: calc(12 / 1063 * 100vh);
+  margin-top: calc(35 / 1063 * 100vh);
+}
+
+.login-submit:hover {
+  background-color: #111935de;
+}
+
+.login-boss hr {
+  height: 1.5px;
+  background-color: #f6a000;
+}
+
+.signup-submit {
+  height: calc(59 / 1063 * 100vh);
+  width: calc(250 / 1920 * 100vw);
+  padding: 0;
+  border: 0.1px solid #ffcc76;
+  border-radius: 2px;
+  color: #efc36a;
+  background-color: #330428;
+  font-size: calc(30 / 1063 * 100vh);
+  margin-top: calc(12 / 1063 * 100vh);
+}
+
+.signup-submit:hover {
+  background-color: #330428;
+}
+
+@media (max-width: 850px) {
+  .login-boss {
+    background: url("https://rdv-bucket.s3.amazonaws.com/Website/hmphbg.webp") no-repeat center
+      center/cover;
+  }
+
+  .login-sub {
+    backdrop-filter: blur(35px);
+    border: 1px solid #ffcc76;
+    border-radius: 5px;
+    padding-left: calc(30 / 430 * 100vw);
+    padding-right: calc(30 / 430 * 100vw);
+    height: calc(409 / 622 * 100vh);
+    width: calc(362 / 430 * 100vw);
+    margin-left: calc(44 / 430 * 100vw);
+    margin-top: calc(50 / 622 * 100vh);
+  }
+
+  .login-head {
+    margin-top: calc(25 / 622 * 100vh);
+    margin-left: auto;
+    margin-right: auto;
+    font-size: calc(25 / 622 * 100vh);
+  }
+
+  .forgot-password-button {
+    margin-right: calc(5 / 430 * 100vw);
+    margin-bottom: calc(28 / 622 * 100vh);
+  }
+  .login-password-input {
+    /* margin-top: calc(10 / 622 * 100vh); */
+    margin-bottom: calc(20 / 622 * 100vh);
+  }
+
+  .login-submit {
+    margin-top: calc(18 / 622 * 100vh);
+    margin-bottom: calc(12 / 622 * 100vh);
+    height: calc(31 / 622 * 100vh);
+    width: calc(135 / 430 * 100vw);
+  }
+
+  .signup-submit {
+    margin-top: calc(10 / 622 * 100vh);
+    height: calc(31 / 622 * 100vh);
+    width: calc(135 / 430 * 100vw);
+  }
+}

@@ -1,0 +1,415 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+    <url>
+        <loc>https://www.rendezvousiitd.com/</loc>
+        <priority>1.0</priority>
+    </url>
+
+    <url>
+        <loc>https://www.rendezvousiitd.com/aboutus</loc>
+        <priority>0.8</priority>
+    </url>
+
+    <url>
+        <loc>https://www.rendezvousiitd.com/gallery</loc>
+        <priority>0.8</priority>
+    </url>
+
+    <url>
+        <loc>https://www.rendezvousiitd.com/login</loc>
+        <priority>0.8</priority>
+    </url>
+
+    <url>
+        <loc>https://www.rendezvousiitd.com/signup</loc>
+        <priority>0.8</priority>
+    </url>
+
+    <url>
+        <loc>https://www.rendezvousiitd.com/faq</loc>
+        <priority>0.8</priority>
+    </url>
+
+    <url>
+        <loc>https://www.rendezvousiitd.com/events/All</loc>
+        <priority>0.8</priority>
+    </url>
+
+    <url>
+        <loc>https://www.rendezvousiitd.com/nonComp</loc>
+        <priority>0.8</priority>
+    </url>
+
+    <url>
+        <loc>https://www.rendezvousiitd.com/events/flagship</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://www.rendezvousiitd.com/events/design</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://www.rendezvousiitd.com/events/facc</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://www.rendezvousiitd.com/events/dance</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://www.rendezvousiitd.com/events/hindi</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://www.rendezvousiitd.com/events/pfc</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://www.rendezvousiitd.com/events/literary</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://www.rendezvousiitd.com/events/debating</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://www.rendezvousiitd.com/events/dramatics</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://www.rendezvousiitd.com/events/quizzing</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://www.rendezvousiitd.com/events/music</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://www.rendezvousiitd.com/events/spicmacay</loc>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://www.rendezvousiitd.com/event/8</loc>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://www.rendezvousiitd.com/event/33</loc>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://www.rendezvousiitd.com/event/34</loc>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://www.rendezvousiitd.com/event/35</loc>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://www.rendezvousiitd.com/event/36</loc>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://www.rendezvousiitd.com/event/14</loc>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://www.rendezvousiitd.com/event/12</loc>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://www.rendezvousiitd.com/event/11</loc>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://www.rendezvousiitd.com/event/16</loc>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://www.rendezvousiitd.com/event/15</loc>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://www.rendezvousiitd.com/event/13</loc>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://www.rendezvousiitd.com/event/23</loc>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://www.rendezvousiitd.com/event/24</loc>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://www.rendezvousiitd.com/event/25</loc>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://www.rendezvousiitd.com/event/28</loc>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://www.rendezvousiitd.com/event/29</loc>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://www.rendezvousiitd.com/event/37</loc>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://www.rendezvousiitd.com/event/38</loc>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://www.rendezvousiitd.com/event/39</loc>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://www.rendezvousiitd.com/event/45</loc>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://www.rendezvousiitd.com/event/46</loc>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://www.rendezvousiitd.com/event/49</loc>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://www.rendezvousiitd.com/event/50</loc>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://www.rendezvousiitd.com/event/55</loc>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://www.rendezvousiitd.com/event/56</loc>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://www.rendezvousiitd.com/event/57</loc>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://www.rendezvousiitd.com/event/58</loc>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://www.rendezvousiitd.com/event/59</loc>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://www.rendezvousiitd.com/event/60</loc>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://www.rendezvousiitd.com/event/61</loc>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://www.rendezvousiitd.com/event/62</loc>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://www.rendezvousiitd.com/event/63</loc>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://www.rendezvousiitd.com/event/64</loc>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://www.rendezvousiitd.com/event/65</loc>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://www.rendezvousiitd.com/event/66</loc>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://www.rendezvousiitd.com/event/67</loc>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://www.rendezvousiitd.com/event/68</loc>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://www.rendezvousiitd.com/event/69</loc>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://www.rendezvousiitd.com/event/70</loc>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://www.rendezvousiitd.com/event/71</loc>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://www.rendezvousiitd.com/event/72</loc>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://www.rendezvousiitd.com/event/73</loc>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://www.rendezvousiitd.com/event/75</loc>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://www.rendezvousiitd.com/event/76</loc>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://www.rendezvousiitd.com/event/77</loc>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://www.rendezvousiitd.com/event/78</loc>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://www.rendezvousiitd.com/event/79</loc>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://www.rendezvousiitd.com/event/80</loc>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://www.rendezvousiitd.com/event/81</loc>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://www.rendezvousiitd.com/event/84</loc>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://www.rendezvousiitd.com/event/85</loc>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://www.rendezvousiitd.com/event/87</loc>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://www.rendezvousiitd.com/event/88</loc>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://www.rendezvousiitd.com/event/89</loc>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://www.rendezvousiitd.com/event/90</loc>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://www.rendezvousiitd.com/event/91</loc>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://www.rendezvousiitd.com/event/92</loc>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://www.rendezvousiitd.com/event/93</loc>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://www.rendezvousiitd.com/event/94</loc>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://www.rendezvousiitd.com/event/95</loc>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://www.rendezvousiitd.com/event/96</loc>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://www.rendezvousiitd.com/event/97</loc>
+        <priority>0.5</priority>
+    </url>
+
+</urlset>

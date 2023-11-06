@@ -1,0 +1,145 @@
+.merchandise-container-boss {
+  height: 100%;
+  width: 100%;
+  background: #08133a;
+  display: flex;
+  flex-direction: column;
+}
+
+.merchandise-heading {
+  color: #fff;
+  font-family: Quincy;
+  font-size: 6.51vw;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+/* .merchandise-container {
+  background: url("./merch-back.png"), lightgray 70% / cover no-repeat ,;
+  text-align: center;
+  color: white;
+  width: 100%;
+  
+} */
+
+.merchandise-container {
+  position: relative;
+  color: white;
+  /* padding: 20px; */
+  display: flex;
+  justify-content: center;
+  margin-block: 8%;
+}
+
+.merchandise-container::before {
+  content: "";
+  background-image: url("./merch-back.png"); /* Replace 'image.jpg' with your image path */
+  background-size: cover;
+  background-position: center;
+  opacity: 0.4; /* Adjust the value (0 to 1) to control the opacity of the background image */
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1; /* Ensure the pseudo-element is behind the content */
+}
+
+.merchandise-img {
+  width: 50%;
+  height: 45%;
+}
+
+.merchandise-image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.merchandise-para {
+  color: #efc36a;
+  text-align: justify;
+  text-shadow: 2.906964063644409px 2.906964063644409px 0px rgba(0, 0, 0, 0.4);
+  font-family: Quincy;
+  font-size: 2vw;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  width: 70%;
+  height: fit-content;
+}
+
+.merchandise-text {
+  display: flex;
+  justify-content: center;
+}
+
+.merchandise-button-2 {
+  display: inline-flex;
+  padding: 5% 10%;
+  justify-content: center;
+  align-items: center;
+  gap: 2%;
+  border-radius: 0.78vw;
+  background: #e5ba57;
+  color: #08133a;
+  font-family: Quincy;
+  font-size: 2.9vw;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.merchandise-button-boss {
+  display: flex;
+  justify-content: center;
+  margin-block: 5%;
+  flex-direction: column;
+  width: 20%;
+  height: fit-content;
+  align-items: center;
+  align-content: center;
+  justify-items: center;
+  margin-inline: 40%;
+}
+.merchandise-mask {
+  width: 100%;
+}
+
+@media screen and (min-width: 425px) and (max-width: 768px) {
+  .merchandise-img {
+    width: 60%;
+    height: 50%;
+  }
+  .merchandise-para {
+    font-size: 2.5vw;
+  }
+  .merchandise-button-2 {
+    font-size: 3.3vw;
+  }
+  .merchandise-heading {
+    font-size: 9vw;
+  }
+  .merchandise-button-boss {
+    width: 25%;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 425px) {
+  .merchandise-img {
+    width: 70%;
+  }
+  .merchandise-para {
+    font-size: 4vw;
+  }
+  .merchandise-button-2 {
+    font-size: 4vw;
+  }
+  .merchandise-button-boss {
+    width: 25%;
+  }
+  .merchandise-heading {
+    font-size: 10vw;
+  }
+}

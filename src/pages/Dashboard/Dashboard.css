@@ -1,0 +1,223 @@
+.Me-Body {
+  background-color: #0a001b;
+  color: white;
+  padding: 0;
+  margin: 0;
+
+}
+
+.BG_Div {
+  /* background-image: url("https://rdv-bucket.s3.amazonaws.com/Website/DashboardBackground.webp"); */
+  background-position: center;
+  background-size: 100% 100%;
+  min-height: 9vh;
+  width: 100%;
+  align-items: center;
+  display: flex;
+}
+
+.Profile_Body {
+  display: flex;
+  align-items: flex-start !important;
+  width: 100%;
+  height: 100%;
+  flex-wrap: wrap;
+  padding: 100px 0;
+}
+
+.Profile_Body > div {
+  margin: auto 40px;
+}
+
+.Profile_Photo_Div {
+  /* height: 100%; */
+  margin-top: 0 !important;
+  margin-bottom: 40px !important;
+  flex-shrink: 1;
+  flex: 1;
+  text-align: center;
+  padding: 30px 20px;
+  border-radius: 15px;
+  background-color: rgba(255, 255, 255, 0.1);
+
+}
+
+.Profile_Photo_Div div {
+  margin: 20px auto;
+  align-items: center;
+  display: flex;
+  border-radius: 50%;
+  overflow: hidden;
+  justify-content: center;
+  width: 220px;
+  height: 220px;
+}
+.Dashboard_Update_Button {
+  border-radius: 4.15px;
+  border: 0.83px solid #ffcc76;
+  background-color: #111935;
+  align-self: center;
+  color: #efc36a;
+  font-size: 1.2rem;
+  padding: 5px 10px;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+.Dashboard_Update_Button:disabled {
+  border-color: #d1a353;
+  background-color: #1e2a55;
+  color: #d1a353;
+  cursor: not-allowed;
+}
+.Dashboard_Update_Button:hover:enabled {
+  background-color: #04006d;
+}
+.CollagenameInput {
+  padding: 5px 8px;
+  background-color: rgba(255, 255, 255, 0.1);
+  color: #efc36a;
+  margin: 10px 0;
+  border: 1px solid #d1a353;
+
+}
+.Profile_Photo_Div img {
+
+  object-fit: cover;
+  line-height: 220px;
+
+/*   margin: 20px auto;
+  width: 220px;
+  height: 220px; */
+
+}
+
+.Profile_Photo_Div h2 {
+  margin: 30px auto;
+  width: fit-content;
+  position: relative;
+}
+
+.Profile_Photo_Div h2::after {
+  content: "";
+  height: 2px;
+  border-radius: 1px;
+  width: 100%;
+  background-image: linear-gradient(to right, #efc36a, transparent);
+  position: absolute;
+  bottom: -5px;
+  left: 0;
+}
+
+.Profile_Info_Div {
+  flex: 2;
+  /* margin: auto; */
+  display: flex;
+  flex-direction: column;
+  /* width: 55%; */
+}
+
+.Profile_Info_Div h2 {
+  padding: 10px 20px;
+  margin: 0;
+}
+
+.Profile_Info_Div hr {
+  margin: 0;
+  padding: 0;
+  height: 2px;
+  background: #0a001b;
+  color: #0a001b;
+}
+
+.Info_Data {
+  padding: 10px 60px;
+  display: block;
+}
+
+.Info_Data p {
+  font-size: 1.3rem;
+  color: white;
+  position: relative;
+  padding-bottom: 3px;
+  word-wrap: break-word;
+}
+
+.Info_Data p::after {
+  content: "";
+  height: 2px;
+  border-radius: 1px;
+  width: 100%;
+  background-image: linear-gradient(to right, #efc36a, transparent);
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+}
+
+.General_Info {
+  border-radius: 15px;
+  margin-bottom: 40px;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.Socal_Connections {
+  border-radius: 15px;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+#college-update-form select {
+  margin: 10px 0;
+  padding: 5px;
+}
+#college-update-form select option {
+  background-color: #0a001b;
+  filter: blur(4px);
+  color: #efc36a;
+}
+.pass-header
+{   
+    font-weight: 700;
+    background-image: linear-gradient(45deg, rgb(239, 195, 106, 1),rgb(239, 195, 106, 0.1));
+}
+
+.pass-footer{
+    background-image: linear-gradient(-45deg, rgb(239, 195, 106, 1),rgb(239, 195, 106, 0.1));
+}
+
+.dwnld{
+    background-color: rgb(26, 46, 118);
+    border: none;
+}
+
+.card-comp{
+    font-family: 'Poppins', sans-serif;
+    font-size: 95%;
+}
+.dwnld:hover
+{
+    background-color: rgb(26, 46, 130, 0.8);
+    box-shadow: 5px 10px 10px rgb(10, 0, 27, 0.1);
+}
+
+@media screen and (max-width: 793px) {
+  .Profile_Body > div {
+    margin: auto 20px;
+  }
+
+  .Profile_Photo_Div div {
+    margin: 20px auto;
+    width: 170px;
+    height: 170px;
+  }
+  .Profile_Photo_Div img {
+    line-height: 170px;
+  }
+
+  .Info_Data {
+    padding: 10px 25px;
+  }
+
+
+  .Info_Data p {
+    font-size: 1rem;
+  }
+}

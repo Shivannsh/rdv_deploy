@@ -1,0 +1,60 @@
+
+
+.gallery-title{
+    font-family: "Popins";
+}
+
+.gallery-home {
+  background: #0a001b;
+  background-size: fit;
+  flex-direction: row;
+  padding-bottom: 40px;
+}
+.gallery-img {
+  width: 45vw;
+  /* padding-left: px; */
+  padding-right: 50px;
+}
+
+.gallery-home .gallery-title {
+  color: #efc36a;
+  font-family: Poppins;
+  font-size: 3rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-align: left;
+
+}
+
+.gallery-home .gallery-button {
+  background: #efc36a;
+  color: white;
+}
+
+.gallery-home .gallery-button:hover {
+  background: #0a001b;
+  color: #efc36a;
+}
+
+
+@media screen and (max-width: 1000px) {
+  .gallery-home div {
+    flex-direction: column;
+  }
+  .gallery-img {
+    width: 90%;
+    margin: auto;
+    padding-right: 0;
+  }
+  .gallery-home {
+    padding-bottom: 0px;
+  }
+  .gallery-home .gallery-title {
+    text-align: right;
+  }
+  .gallery-text-container {
+    text-align: right;
+  }
+}
+

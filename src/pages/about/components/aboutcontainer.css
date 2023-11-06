@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+.about-container {
+    margin: 8% 5% 5% 5%;
+    width: 45%;
+    padding: 1% 2%;
+    background-color: transparent;
+    backdrop-filter: blur(25px);
+    border: 0.83px solid #FFCC76;
+    border-radius: 12px;
+}
+
+.about-text {
+    color: #EFC36A;
+    text-align: 'justify';
+    font-family: 'Lato';
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.about-header {
+    color: #EFC36A;
+    font-size: 40px;
+    font-weight: 600;
+    text-align: start;
+
+}
+
+.about-list {
+    margin: 0% 5%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.about-list-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-list-img {
+    height: 50px;
+    width: 50px
+}
+
+
+@media (max-width: 768px) {
+    .about-container {
+        margin-top: 20%;
+        width: 90%;
+        background: rgba(8, 16, 45, 0.40);
+        backdrop-filter: blur(20px);
+    }
+
+    .about-list {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+    }
+
+    .about-text {
+        text-shadow: none;
+
+    }
+
+    .about-header {
+        text-align: center;
+    }
+}
+
+.title {
+
+    color: #EFC36A;
+    text-align: 'justify';
+    font-family: 'Lato';
+    font-size: 17px;
+    font-weight: 500;
+
+}
+
+.num {
+
+    color: white;
+    font-size: 33.69px;
+    font-family: Open Sans;
+    font-weight: 700;
+    line-height: 55.48px;
+    word-wrap: break-word
+}

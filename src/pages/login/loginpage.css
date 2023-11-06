@@ -1,0 +1,14 @@
+.reg-page{
+    background-image: url(https://rdv-bucket.s3.amazonaws.com/Website/fgbg.webp);
+    background-size: cover;
+    background-position: center;
+    overflow-x: auto;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    font-family: 'Quincy';
+    color: #EFC36A;
+    padding: 10%;
+}

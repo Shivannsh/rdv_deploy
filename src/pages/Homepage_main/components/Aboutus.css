@@ -1,0 +1,65 @@
+
+
+.aboutus-container-boss{
+    height: 100vh;
+    width: 100%;
+    background-size: 100%;
+    background-color: #151F42;
+    
+    
+    }
+
+.aboutus-text{
+    display: flex;
+    flex-direction: column;
+    
+    padding: 20px;
+    padding-bottom: 4vw;
+    padding-top: 4vw;
+    padding-right: 8vw;
+}
+
+.aboutus-heading{
+    color: #EFC36A;
+    font-family: Quincy;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    
+    flex: 1;
+    
+}
+
+.aboutus-subheading{
+    color: #EFC36A;
+    text-align: justify;
+    text-shadow: 2.906964063644409px 2.906964063644409px 0px rgba(0, 0, 0, 0.40);
+    font-family: Quincy;
+    font-size: 1.2rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    
+    flex: 1;
+   
+    
+}
+
+.aboutus-text{
+    margin-left: 30vw;
+
+    
+}
+
+.aboutus-data{
+    width: 100%;
+}
+
+.aboutus-mask{
+    position: absolute;
+    z-index: 1;
+    margin-top: 3vw;
+    width: 18vw;
+
+}

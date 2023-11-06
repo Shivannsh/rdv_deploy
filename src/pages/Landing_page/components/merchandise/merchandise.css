@@ -1,0 +1,35 @@
+.merchandise-home {
+  background: #0a001b;
+  background-size: fit;
+  flex-direction: row;
+  padding-top: 40px;
+}
+
+.merchandise-home .merchandise-title {
+  color: #efc36a;
+  font-family: Poppins;
+  font-size: 3rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-align: left;
+}
+
+.merchandise-home .merchandise-button {
+  background: #efc36a;
+  color: white;
+}
+
+.merchandise-home .merchandise-button:hover {
+  background: #0a001b;
+  color: #efc36a;
+}
+
+@media screen and (max-width: 1000px) {
+  .merchandise-home div {
+    flex-direction: column-reverse;
+  }
+  .merchandise-home {
+    padding-top: 0px;
+  }
+}

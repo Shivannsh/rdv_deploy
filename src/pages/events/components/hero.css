@@ -1,0 +1,14 @@
+.hero-cm{
+    font-family: Quincy;
+}
+
+.toggle-button{
+    border: #EFC36A 1px solid !important;
+    border-radius: 15px;
+    font-weight: 500 !important;
+}
+
+.img-container img{
+    object-fit: cover;
+    min-height: 10vh;
+}

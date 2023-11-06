@@ -1,0 +1,107 @@
+
+.tabs-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.tablink {
+    margin-top: 5px;
+}
+.d-tab {
+    cursor: pointer;
+    text-decoration: none;
+    color: #000;
+    font-size: 20px;
+    background-color: #fff;
+    padding: 2vw 1vw;
+    width: 20vw;
+    text-align: center;
+    font-weight: 700;
+    font-family: 'openSan';
+    margin: 3vw;
+    border-radius: 6px;
+}
+
+
+/* active tab */
+
+.d-tab.active {
+    background-color: #efc36a;
+    color: #000;
+    box-shadow: 0px 0px 25px #c66e09;
+    
+}
+
+.club-nav-main{
+    background-color: #3d3576;
+    background-color: var(--background-color);
+    /* padding: 3vw; */
+    padding-left: 3vw;
+    padding-right: 3vw;
+    width: 100vw;
+    align-items: center;
+    color: #fff;
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+}
+.head-top{
+    
+
+    font-size: 3.75rem;
+    font-weight: 600;
+    margin-right: 30px;
+    
+
+}
+.club-nav-button {
+    background: none;
+    border: 1px solid #fff;
+    border-radius: 24px;
+    color: #fff;
+    font-size: 1rem;
+    margin: 0 10px;
+    padding: 5px 10px;
+    line-height: inherit;
+}
+.active-btn {
+    background-color: #efc36a;
+    color: #000;
+    box-shadow: 0px 0px 25px #c66e09;
+    border: 0 solid #ffffff00;
+    border-radius: 24px;
+    
+    font-size: 1rem;
+    margin: 0 10px;
+    padding: 5px 10px;
+    line-height: inherit;
+}
+
+@media screen and (max-width: 1024px) {
+    
+    .d-tab {
+        margin-top: 5vh;
+        width:40%;
+        font-size: 18px;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+    .d-tab {
+        margin-top: 5vh;
+        width:35%;
+        font-size: 13px;
+    }
+
+}
+
+@media screen and (max-width: 480px) {
+
+    .d-tab {
+        margin-top: 5vh;
+        width:30%;
+        font-size: 10px;
+    }
+
+}

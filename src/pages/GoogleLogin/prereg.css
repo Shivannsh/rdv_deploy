@@ -1,0 +1,20 @@
+.pre-reg-page{
+    background-image: url(https://rdv-bucket.s3.amazonaws.com/Website/mask2.webp);
+    background-size: cover;
+    overflow-x: auto;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    font-family: 'Quincy';
+    color: #EFC36A;
+}
+
+
+@media(max-width: 760px){
+    .pre-reg-page{
+        background-image: url(https://rdv-bucket.s3.amazonaws.com/Website/phbg.webp);
+        background-position: center;
+        }   
+}

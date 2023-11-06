@@ -1,0 +1,30 @@
+.flagship-container .bg{
+    width: 100%;
+    min-height: 5vh;
+}
+
+.flagship-container .top{
+    position: absolute;
+    left:6%;
+    align-self: center;
+    width: 12%;
+    height: 10%;
+}
+
+.flagship-container .bsp{
+    width: 30%;
+}
+.flagship-container .imageContainer{
+    display: flex;
+}
+
+@media only screen and (max-width: 600px) {
+    .flagship-container .top{
+        width: 25%;
+        left: 5%;
+    }
+
+    .flagship-container .bsp{
+        width: 45%;
+    }
+}

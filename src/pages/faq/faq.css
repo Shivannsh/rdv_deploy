@@ -1,0 +1,149 @@
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.faq-container-head{
+    aspect-ratio: 1.766;
+    background-image: url(https://rdv-bucket.s3.amazonaws.com/Website/image\ 2.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+}
+
+.faq-title-boss{
+    padding: 40vh 0;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.text1{
+    font-size: 70px;
+    color: white
+}
+
+.text2{
+    font-size: 30px;
+    color: white;
+}
+
+.faq-qs{
+    padding-bottom: 100px;
+    background-color: rgba(10,0,27,255);
+    color: white;
+}
+
+.faq-qs-header{
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.faq-qs-header>p{
+    margin-top: 40px;
+}
+.faqimg{
+    height: 80px;
+    width: auto;
+    padding-left: 20px;
+    position: relative;
+}
+
+.faq-qs-section{
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.acco-box{
+    width: 72vw;
+    padding: 10px 0;
+    overflow: visible;
+}
+
+.acco-downkey{
+    padding-right: 5px;
+    position: relative;
+    top: 3px;
+    height: 20px;
+    width: 20px;
+    filter: invert();
+    transform: rotate(0);
+}
+.acco-btn{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(240, 248, 255, 0) ;
+    color: white;
+    border: none;
+    border-bottom: 1px solid white;
+    text-align: left;
+    font-size: 22px;
+    padding: 0;
+    margin: 15px 0;
+    width: 70vw;
+    height: auto;
+}
+
+.acco-btn:hover{
+    background-color: transparent;
+}
+.acco-content{
+    width: 70vw;
+    font-size: 20px;
+    margin: 20px 0;
+}
+
+.acco-input{
+    display: none;
+}
+
+.acco-btn::after{
+    content: " ";
+    display: inline-block;
+    background-image: url(../../assets/img/icons8-down-arrow-50.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-self: center;
+    aspect-ratio: 1;
+    width: 25px;
+}
+
+.acco-input:checked ~ .acco-btn::after{
+    background-image: url(../../assets/img/ep_arrow-down-bold.png);
+}
+
+@media screen and (max-width:1139px) {
+    .faq-qs-header>p{
+        font-size: 4.5vw
+    }
+}
+@media screen and (max-width:846px) {
+    .faqimg{
+        height: 60px;
+    }
+}
+@media screen and (max-width:651px) {
+    
+    .faqimg{
+        height: 50px;
+    }
+    .faq-qs-header>p{
+        font-size: 5.75vw
+    }
+    .acco-box>p, .acco-content>p{
+        font-size: 20px;
+    }
+    .faq-qs-section{
+        padding-top: 0px;
+    }
+}
+@media screen and (max-width:504px) {
+    .faqimg{
+        height: 40px;
+    }
+}
